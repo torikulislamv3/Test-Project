@@ -74,3 +74,22 @@ gap: 10px;
     height: 60px;
     width: 60px;
 }
+/* grid related */
+.grid-box{
+    width: auto;
+    height: auto;
+    border: 1px solid yellow;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-items: center;
+    gap: 10px;
+
+}
+.grid-box-sub{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    text-align: center;
+}
